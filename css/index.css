@@ -80,8 +80,7 @@ align-items: center;
     align-content: center;
     font-size: 100px;
     font-family: Impact; 
-    flex-wrap:wrap;
-    
+   
 
 }
 .skill1{
@@ -94,7 +93,7 @@ align-items: center;
     margin:auto;
 }
 .skillp{
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     align-content: center;
     font-family: Din condensed;
@@ -114,38 +113,17 @@ align-items: center;
 
 }
 .skillp2{
-    font-size: 15px;
-    display: flex;
-    align-items: left;
-    font-family: Din condensed;
-    width:70%; 
-    padding: 10px; 
-    
-
-}
-
-
-.skill3{
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
-    font-family: old london alternate;
-    margin:auto;
-    
-
-}
-.skillp3{
-    font-size: 15px;
-    display: flex;
-    align-content: center;
     font-family: Din condensed;
-    width:70%; 
-    margin:auto;
-    padding: 50px;
-flex-wrap: wrap;    
+    width:90%; 
+    padding: 30px; 
     
 
 }
+
+
 .skillblurb{
     display:flex;
     justify-content: center;
