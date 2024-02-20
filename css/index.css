@@ -243,18 +243,12 @@ align-items: center;
   
     width:10%;
     align-items: left;
-   
-    
-    position: relative;
-   
-  
-  }
+   position: relative;
+   }
+
   .red2{
   display: flex;
-    width:10%;
- right: 10;
-   margin: 0;
-
-  
-
-  }
+  width:10%;
+  right: 10;
+  margin: 0;
+ }
