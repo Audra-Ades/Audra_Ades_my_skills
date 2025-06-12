@@ -20,7 +20,7 @@ ul a:hover{
 }
 
 .Extra{
-  font-family: 'KG LET HER GO OUTLINE';;
+  font-family: "kg-let-her-go";
   color: #56698d;
   font-size: 150px;
   align-content: center;
@@ -298,4 +298,12 @@ margin: 0;
 .skills{
   color: #2d3c5a;
   font-size: 60px;
+}
+@font-face {
+  font-family: "brandford";
+  src: url(brandford.otf);
+}
+@font-face {
+  font-family: "kg-let-her-go";
+  src: url(kg-let-her-go.ttf);
 }
