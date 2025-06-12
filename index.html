@@ -3,23 +3,24 @@
     
 <head> 
   <link href="css/index.css" type="text/css" rel="stylesheet">
- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:#fff8e0; border:black solid 5px; ">
-  <script src="js/script.js"></script>
+<body style="background-image: url(./images/stripe3.png);border:black solid 5px; margin:50px ;background-size: 5in 40in;">
 <h1 class="name">
    <div style="text-align: center;" >
   <img width= 80%; 
-  src="images/newsheading.gif">
+  src="images/name.png">
 </h1>
 
-<ul >
-    <a class="link" href="https://audra-ades.github.io/Ux-Ui-Hw17/">About</a>
-    <a style="color:#dd5444;">Skills</a>
-    <a class="link" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/" >Work</a>
-    <a class="popup" onclick="myFunction()"> Contact
+<ul>
+    <a >Home</a>
+    <a class="skills">Skills</a>
+    <a class="link2" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/">Projects</a>
+  <a class="popup" onclick="myFunction()"> Contact
       <span class="popuptext" id="myPopup">
-        <div id="sample">
+        <div class= "email" id="sample">
         Email: Audraades@gmail.com
       </div>
       <br />
@@ -34,6 +35,23 @@
             
               navigator.clipboard.writeText
                   ("Audraades@gmail.com");
+          }
+      </script>
+      <div class="phone" id="sample">
+        Phone: (760)987-0681
+      </div>
+      <br />
+       
+      <button class="copy" onclick="copyText()">Copy</button>
+      <br />
+       
+       
+      <script>
+          function copyText() {
+       
+            
+              navigator.clipboard.writeText
+                  ("(760)987-0681");
           }
       </script>
       
@@ -52,102 +70,157 @@
     }
     </script>
 
-  <section style="text-align:center; border: black solid 5px; margin: 100px;">
-    <h1 class="myskills">Newsflash</h1>
-    <p class="skillblurb"> My Skills...</p>
-  <div class="skill1" ><img style="text-align:center;" width="70%"; src="images/tools.gif">
-   <h1 tyle="text-align: right;">Tools:
-    <p class="skillp"style="margin: 20px;> Adobe; Lightroom,Photoshop, 
-        Illustrator </p>
-    <p class="skill> Ux/Ui; 
-        Figma, Miro </p>
-    <p class="skillp" style="margin: 20px;"> Coding; 
-        Html, Css, Javascript, Github,
-        Visualstudio </p>
-        <p class="skillp"> Other useful design tools; 
-            Photography, Procreate, Aesthetics,
-            Color Theory,
-            Creativity,
-            Gestalt Principles,
-            Icon Design,
-            Illustrations,
-            Layout Design,
-            Typography </p>
 
-  </h1>
-  
-  </div>
-  
-  <div class="skill2">
-    <h1 style="text-align: left;">Ux/ Ui specific:
-      <p style="align-content:left; align-items:self-start;"class= "skillp2"> Persona Creation,
-        User Interviews Planning,
-        User Interviews,
-        User Research,
-        Usability Testing,
-        User Observation,
-        A/B Testing,
-        Affinity Diagrams,
-        Card Sorting,
-        Survey Creation,
-        Accessible Design,
-        Information architecture and sitemapping Interaction Design,
-        Wireframes and page layout,
-        Mockups,
-        Prototyping,
-        Scenario Design,
-        Sketching,
-        Storyboarding,
-        and UI Design
-   </h1>
-   <img id="stair2"; width="55%";  height= "45%" ; src="images/stair2.png" ></p>
-   </div>
+  <h2 class= "grid-container"; style="background-color: antiquewhite  ;border: black solid 5px; margin: 100px;">
+      <p class="Extra">
+      News flash!</p>
 
-   
-   
-   <div class="row"><img  src="../images/handpointleft.gif"; width="30%"; class="point1" ><button class="styled" type="button" ><a class="link" href="AudraResume .docx.pdf" download="AudraResume";>Download Resume</a></button>
-   
-    <img src="../images/handpointright.gif"; width="30%"; class="point1">
- </div>
-
-  
-</section>
-  
-  
-  
-  
-     
-  
+        
+      <div class="me">She's got mad skills!
       </div>
-  </body>
+      <div style="text-align: center;" >
+        <img width= 40%; 
+        src="images/Layer10.png">
+      </div>
+
+   
+      
+      <h1 class="blurb" style="border: white solid 5px; background-color: antiquewhite;"> graphic skillset:
+        <a class="icon1"> <img width= 15% style="float: right;" 
+          src="images/stamp1.png"></a>
+     
+          <p class="skillp2">  
+        Adobe illustrator,
+        Photoshop,
+        Canva
+        Creating vector art,
+        Typography,
+        Color theory,
+        Design principles,
+        Branding,
+        Layout design,
+        .gif design,
+        coding;Html,css,some javascript
+
+
+
+
+        </p>
+      
+     </h1>
+
+     <h1 class="blurb" style="border: white solid 5px; background-color: antiquewhite;"> UX/UI skillset:
+      <a class="icon1"> <img width= 15% style="float: right;" 
+        src="images/stamp2.png"></a>
+   
+        <p class="skillp2"> 
+          Figma,
+          Miro,
+          Persona Creation,
+          User Interviews Planning,
+          User Interviews,
+          User Research,
+          Usability Testing,
+          User Observation,
+          A/B Testing,
+          Affinity Diagrams,
+          Card Sorting,
+          Survey Creation,
+          Accessible Design,
+          Information architecture and sitemapping Interaction Design,
+          Wireframes and page layout,
+          Mockups,
+          Prototyping,
+          Scenario Design,
+          Storyboarding,
+          and UI Design </p>
+    
+   </h1>
+    
+   <h1 class="blurb" style="border: white solid 5px; background-color: antiquewhite;"> Creative skillset:
+    <a class="icon1"> <img width= 15% style="float: right;" 
+      src="images/stamp1.png"></a>
+ 
+      <p class="skillp2">  
+        Coding,
+        Procreate,
+        Lightroom,
+        Photography,
+        Glass Blowing,
+        Drawing,
+        Painting,
+        Color Theory,
+        Creativity,
+        Icon Design,
+        Illustrations,Glass blowing,
+        
+        
+        Typography </p>
   
+ </h1>
+    </div>
+    <div style="text-align: center;">
+     
+      <div class="row"><img  src="./images/handpointleft.gif"; width="30%"; class="point1" ><button class="styled" type="button" ><a class="link" href="AudraResume .docx.pdf" download="AudraResume";>Download Resume</a></button>
+   
+    <img src="./images/handpointright.gif"; width="30%"; class="point1">
+ </div>
+    
+    </div>
+     </h2>
+     
+
+
+</div>
+<div>
+  <img src="url" alt="">
+
+</div>
+
+
+
+    
   
-  
-  
-  
-  <footer>
-  
-    <ul class="foot">
-        <a class="link" href="https://audra-ades.github.io/Ux-Ui-Hw17/">About</a>
-        <a style="color:#dd5444;">Skills</a>
-        <a class="link" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/" >Work</a>
-          
-        </a>
-    </ul>
-  
-  
-    <div class="socials" style="border: black solid 5px; height: 100px; margin:50Px"><img class="red" src="./images/red.PNG">
-      <a class="link" href="https://www.instagram.com/audgeepaudgee/"> <img width= 15%; 
-        src="images/insta.png"></a>
-      <a class="link" href="https://www.linkedin.com/in/audra-ades-418436282/"> <img width= 15%; 
-          src="images/linked.png"></a>
-       <a href="mailto:audraades@gmail.com"> <img width= 15%; 
-            src="images/mail.png"></a>
-       <img class="red2" src="./images/red2.PNG">   
+ 
+
+ 
+
+
+
+
+
+
+</section>
+</h1>
+
+
+
+
+   
 
     </div>
-  </footer>
-  
-  </html>
-  
-  
+</body>
+
+
+<footer>
+<div class= "mycontainer">
+  <ul  >
+    <a >Home</a>
+    <a class="skills">Skills</a>
+    <a class="link3" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/">Projects</a>
+    <a class="contact" href="mailto:audraades@gmail.com">Contact</a>
+  </ul>
+</div>
+
+
+  <div class="socials" style="background-image: url(./images/bar.png);">
+    <a class="icon1"> <img width= 20%; 
+      src="images/insta.png"></a>
+    <a class="icon2" href="https://www.linkedin.com/in/audra-ades-418436282/"> <img width= 15%; 
+          src="images/linked.png"></a>
+   <a class="icon3" href="mailto:audraades@gmail.com"> <img width= 20%; 
+            src="images/mail.png"></a>
+  </div>
+</footer>
+
+</html>
