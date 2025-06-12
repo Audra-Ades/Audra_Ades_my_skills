@@ -42,7 +42,7 @@ ul a:hover{
 
 }
 .blurb{
-  font-family:"brandford" ;
+  font-family: 'Brandford', sans-serif;                                       
   align-content: left;
   text-align: left;
   margin: auto;
@@ -63,7 +63,7 @@ ul a:hover{
   padding: 0 20px;
   font-size: 1rem;
   color: white;
-  font-family:"brandford";
+  font-family: 'Brandford', sans-serif;
   border-radius: 10px;
   background-color: #56698d;
   font-size: 40px;
@@ -262,7 +262,7 @@ position: relative;
   to {opacity:1 ;}
 }
 .copy{
-  font-family: "brandford";
+  font-family: 'Brandford', sans-serif;                                         
   font-size: 30px;
   background-color: #fbf4dc;
   border-radius: 5px;
@@ -298,12 +298,4 @@ margin: 0;
 .skills{
   color: #2d3c5a;
   font-size: 60px;
-}
-@font-face {
-  font-family: "brandford";
-  src: url(brandford.otf);
-}
-@font-face {
-  font-family: "kg-let-her-go";
-  src: url(kg-let-her-go.ttf);
 }
